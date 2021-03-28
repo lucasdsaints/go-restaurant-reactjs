@@ -55,29 +55,3 @@ export default function Input({ name, icon, ...rest }: InputProps) {
     </Container>
   );
 }
-
-// const Input2 = ({ name, icon: Icon, ...rest }) => {
-
-
-//   const { fieldName, defaultValue, registerField } = useField(name);
-
-  
-
-
-
-  
-
-//   return (
-//     <Container isFilled={isFilled} isFocused={isFocused}>
-//       {Icon && <Icon size={20} />}
-
-//       <input
-//         onFocus={handleInputFocus}
-//         onBlur={handleInputBlur}
-//         defaultValue={defaultValue}
-//         ref={inputRef}
-//         {...rest}
-//       />
-//     </Container>
-//   );
-// };
